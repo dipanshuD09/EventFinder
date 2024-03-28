@@ -57,13 +57,13 @@ const createEvent = asyncHandler(async (req, res) => {
   const month = currentDate.getMonth();
   const year = currentDate.getFullYear();
   const event = await Event.find({event_name});
-
+  console.log(event);
   const date = convertISOToYYYYMMDD(currentDate);
   const time = `${currentDate.getHours()}:${currentDate.getMinutes()}:${
     currentDate.getSeconds()
   }`;
 
-  if (!event) {
+  if (event.length == 0) {
     const _event = new Event({
       event_name,
       city_name,
