@@ -1,7 +1,7 @@
 # Project: commV1
 
-Deployment Link: http://eventfinderv1.ap-south-1.elasticbeanstalk.com (Currently supports only http and not https)
-(You can use this url as baseURL and test this API on Postman. For eg. http://eventfinderv1.ap-south-1.elasticbeanstalk.com/api/events/find will get all the for next 14 days.)
+Deployment Link: http://eventfinder.ap-south-1.elasticbeanstalk.com (Currently supports only http and not https)
+(You can use this url as baseURL and test this API on Postman. For eg. http://eventfinder.ap-south-1.elasticbeanstalk.com/api/events/find will get all the for next 14 days.)
 (Below you will find how to make requests, all endpoint details are mentioned.)
 
 ## Steps
